@@ -1,4 +1,4 @@
-(function(){var jQueryhighcharts;var jQueryAllowedVersion='1.12.4';var jQueryUrl='https://cls.giavangvietnam.com/js/jquery.js';var highChartUrl='https://cls.giavangvietnam.com/js/highcharts.js';function loadScript(e,t){var a=document.createElement("script");a.type="text/javascript",a.readyState?a.onreadystatechange=function(){"loaded"!=a.readyState&&"complete"!=a.readyState||(a.onreadystatechange=null,t())}:a.onload=function(){t()},a.src=e,document.getElementsByTagName("head")[0].appendChild(a)}
+(function(){var jQueryhighcharts;var jQueryAllowedVersion='1.12.4';var jQueryUrl='https://cdn.jsdelivr.net/gh/chiendahonghot/website/assets/js/giavangvietnam/jquery.js';var highChartUrl='https://cdn.jsdelivr.net/gh/chiendahonghot/website/assets/js/giavangvietnam/highcharts.js';function loadScript(e,t){var a=document.createElement("script");a.type="text/javascript",a.readyState?a.onreadystatechange=function(){"loaded"!=a.readyState&&"complete"!=a.readyState||(a.onreadystatechange=null,t())}:a.onload=function(){t()},a.src=e,document.getElementsByTagName("head")[0].appendChild(a)}
 function formatNumberK(number){k=number.toString().replace(/,0{3}$/g,'K');return result=k.replace(/^[\s||-]+/g,'');}
 function formatNumber(num){return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g,'$1,')}
 function priceChangeFormat(num,change){if(num!=0&&num!=''){var price=formatNumberK(formatNumber(num));return(change=='up'?'▼':'▼')+price;}
@@ -33,12 +33,10 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table {
 				border-collapse: collapse;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table tr th {
 				text-align: left;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table tr:hover td {
@@ -46,25 +44,21 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table td a {
 				font-weight: bold;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table,
 			.{{WIDGET_CLASS_ID}}-sjc table th,
 			.{{WIDGET_CLASS_ID}}-sjc table td {
 				border: 1px solid #cccccc75
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-sjc table th, .{{WIDGET_CLASS_ID}}-sjc table td {
 				padding: 7px;
 				font-size: 14px;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-span {
 				white-space: nowrap;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-widget-header {
@@ -77,7 +71,7 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 
 			}
 			.{{WIDGET_CLASS_ID}}-widget-header a{
-				font-size: 13px;
+				font-size: 16px;
                 .dark-mode{color:#F9F9F9!important};
 
 			}
@@ -88,13 +82,11 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				animation-timing-function: linear;
 				background: linear-gradient(90deg, #eee 8%, #ddd 18%, #eee 33%);
 				background-size: 800px auto;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-xau-usd {
 				border: 1px solid #f0f0f0;
 				padding: 5px !important;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-price-down{
@@ -106,14 +98,12 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				color: #00b600;
 				font-weight: normal !important;
 				font-size: 11px !important;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-xau-usd-type {
 				color: #131722;
 				font-weight: 700;
 				align-items: center;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-xau-usd-description {
@@ -134,7 +124,6 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				overflow: hidden;
 				white-space: nowrap;
 				text-overflow: ellipsis;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-sjc-current {
@@ -144,7 +133,6 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 			    padding: 10px !important;
 			    margin-top: 10px !important;
 			    margin-bottom: 10px !important;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-copyright {
@@ -164,7 +152,6 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				border: 0px;
 				margin: 0px;
 				padding: 0px;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-exchange table tr td
@@ -173,7 +160,6 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				padding: 7px;
 				padding-left: 0px;
 				font-size: 13px;
-                dark-mode .text{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-exchange .{{WIDGET_CLASS_ID}}-usd-unit-gold:before {
