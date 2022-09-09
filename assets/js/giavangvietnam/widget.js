@@ -23,7 +23,7 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				margin: 0px;
 				padding: 0px;
 				color: #3d3d3d;
-				font-family: -apple-system, BlinkMacSystemFont, "Nunito Sans";
+				font-family: 'Nunito Sans', sans-serif;
 				font-size: 12px;
 			}
 			.{{WIDGET_CLASS_ID}}-base a {
