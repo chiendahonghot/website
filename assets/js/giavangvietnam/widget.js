@@ -73,12 +73,12 @@ var Module_Path=["GiaVangVietNam","Shared","Widget"];var curr=this;Module_Path.f
 				font-size: 14px;
 				border-left: 3px #005cef solid;
 				padding-left: 5px;
-                dark-mode .text{color:#F9F9F9!important};
+                .dark-mode{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-widget-header a{
 				font-size: 13px;
-                dark-mode .text{color:#F9F9F9!important};
+                .dark-mode{color:#F9F9F9!important};
 
 			}
 			.{{WIDGET_CLASS_ID}}-loading-view {
